@@ -60,7 +60,7 @@ def bestMove(board,xo):
 	else:
 		best_score = 100
 		for i in xrange(len(moves)):
-			if moves[i]['score'] > best_score:
+			if moves[i]['score'] < best_score:
 				best_score = moves[i]['score']
 				best = i;
 
