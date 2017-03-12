@@ -5,7 +5,7 @@ import sys
 sys.setrecursionlimit(10000)
 
 def winning(board, player):
-	print board, 1
+	#print board, 1
 	if (
 		(board[0] == player and board[1] == player and board[2] == player) or
 		(board[3] == player and board[4] == player and board[5] == player) or
